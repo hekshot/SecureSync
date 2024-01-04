@@ -1,13 +1,11 @@
 package com.internevaluation.formfiller.Respository;
 
-import com.dropbox.core.v2.files.FileStatus;
 import com.internevaluation.formfiller.Model.FileData;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
 import java.time.LocalDateTime;
-import java.util.Date;
 import java.util.List;
 
 public interface FileDataRepository extends JpaRepository<FileData,Long> {

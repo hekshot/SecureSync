@@ -1,11 +1,8 @@
 package com.internevaluation.formfiller.Service;
 
-import java.io.File;
 import java.io.UnsupportedEncodingException;
 import java.util.List;
 
-import com.internevaluation.formfiller.Respository.UserRepository;
-import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ByteArrayResource;
 import org.springframework.core.io.InputStreamSource;
@@ -25,9 +22,6 @@ import jakarta.transaction.Transactional;
 public class EmailService {
     @Autowired
     private JavaMailSender mailSender;
-
-    @Autowired
-    private UserRepository userRepository;
 
     @Async
     public void sendFileCreationEmail(User user)

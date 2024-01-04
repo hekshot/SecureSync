@@ -1,6 +1,5 @@
 package com.internevaluation.formfiller.Service;
 
-import com.internevaluation.formfiller.Model.StatisticsDTO;
 import com.internevaluation.formfiller.Model.StatisticsEntity;
 import com.internevaluation.formfiller.Respository.FileDataRepository;
 import com.internevaluation.formfiller.Respository.StatisticsRepository;

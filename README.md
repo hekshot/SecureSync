@@ -1,2 +1,1 @@
-# SecureSync
-SecureSync DocVault: Transforming Document Sharing into a Seamless and Secure Collaborative Workspace
+SecureSync DocVault is a secure ecosystem where collaboration thrives under the vigilant watch of robust security measures and meticulous administration. It transforms the act of document sharing into a seamless, secure, and synchronized experience, fostering a workspace where the team's intellectual assets are protected and empowered.
